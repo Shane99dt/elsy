@@ -28,10 +28,6 @@ class App extends React.Component {
 
           {/* Temperature */}
           <Box icon="wb_sunny" color="yellow" value={-10} unit="°C"/>
-
-          <p>Heart : {heartMin}</p>
-          <p>Temperature : {tempMin}</p>
-          <p>Steps : {stepsMin}</p>
         </div>
       </div>
     );
